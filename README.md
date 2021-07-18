@@ -1,2 +1,2 @@
 # Kizuki-SRC
-lmao
+This is a remapped source of Kizuki Anti-Cheat by Retard.
