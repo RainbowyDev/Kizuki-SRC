@@ -45,7 +45,7 @@ public class TimerB extends KizukiCheck
             }
             this.iI = ii;
         }
-        else if (packet instanceof CPacketMoveCustom) {
+        else if (packet instanceof CPacketPotatoGood) {
             this.verbosePattern -= 150.0;
         }
     }

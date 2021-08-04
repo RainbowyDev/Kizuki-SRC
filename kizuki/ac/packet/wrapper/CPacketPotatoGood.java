@@ -3,7 +3,7 @@ package kizuki.ac.packet.wrapper;
 import kizuki.ac.packet.*;
 import com.comphenix.protocol.events.*;
 
-public class CPacketMoveCustom extends Packet
+public class CPacketPotatoGood extends Packet
 {
     double II;
     double iI;
@@ -11,7 +11,7 @@ public class CPacketMoveCustom extends Packet
     float II;
     float iI;
     
-    public CPacketMoveCustom(final PacketEvent packetEvent) {
+    public CPacketPotatoGood(final PacketEvent packetEvent) {
         super(packetEvent);
         this.II = (double)packetEvent.getPacket().getDoubles().read(0);
         this.iI = (double)packetEvent.getPacket().getDoubles().read(1);

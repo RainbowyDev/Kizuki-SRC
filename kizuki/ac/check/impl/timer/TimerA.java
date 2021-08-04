@@ -48,7 +48,7 @@ public class TimerA extends KizukiCheck
                 this.verbosePattern = Math.max(0.0f, this.verbosePattern - 0.25f);
             }
         }
-        else if (packet instanceof CPacketMoveCustom) {
+        else if (packet instanceof CPacketPotatoGood) {
             this.verbosePattern.add(this.getTime() * 2L);
         }
     }

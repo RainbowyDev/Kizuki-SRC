@@ -287,8 +287,8 @@ public class PlayerData
                     this.lI = this.ll;
                 }
             }
-            else if (packet instanceof CPacketMoveCustom) {
-                this.iI.add(new Vector(((CPacketMoveCustom)packet).getDeltaXZ(), ((CPacketMoveCustom)packet).getDeltaY(), ((CPacketMoveCustom)packet).getDeltaX()));
+            else if (packet instanceof CPacketPotatoGood) {
+                this.iI.add(new Vector(((CPacketPotatoGood)packet).getDeltaXZ(), ((CPacketPotatoGood)packet).getDeltaY(), ((CPacketPotatoGood)packet).getDeltaX()));
             }
             else if (packet instanceof CPacketFlying) {
                 ++this.iI;

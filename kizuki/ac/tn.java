@@ -16,6 +16,6 @@ class tn extends PacketAdapter
     }
     
     public void onPacketSending(final PacketEvent packetEvent) {
-        PacketManager.II(new CPacketMoveCustom(packetEvent));
+        PacketManager.II(new CPacketPotatoGood(packetEvent));
     }
 }
